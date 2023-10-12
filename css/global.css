@@ -1,0 +1,51 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+body {
+  font-family: 'SF Pro Display', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #2F3035;
+}
+
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
